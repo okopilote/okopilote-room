@@ -1,8 +1,8 @@
-# okopilote-controller
+# okopilote-room
 
 `okopilote-room` is the room part of the Okopilote suite. It monitors the ambiant
-temperature, reports heat needs to the controller and drive the optional radiator
-valve.
+temperature of one or more rooms, reports heat needs to the controller and drive the
+optional radiator valve.
 
 Interface with physical devices like sensors and valves are implemented through
 optional Python modules.
@@ -23,7 +23,7 @@ optional Python modules.
 # required) and USB-X440 relay board:
 pip install okopilote-room[mcp9808,okofen-touch4,usb-x440]
 
-Or install room program and sensor/valve/relay modules separately
+# Or install room program and sensor/valve/relay modules separately
 pip install okopilote-room
 pip install okopilote-devices-mcp9808
 pip install okopilote-devices-usb-x440
