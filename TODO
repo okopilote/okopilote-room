@@ -1,0 +1,5 @@
+Enhance the creation of the JSON files for schedulers pref. Currently, it will
+created only when a modification is made.
+
+Enhance the creation and the use of files for storing the current temperature
+set. Currently it is ugly and uses an unecessary extra variable "conf".

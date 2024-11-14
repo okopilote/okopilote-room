@@ -1,0 +1,19 @@
+{
+    "daily_presets": {
+        "at_home": {
+            "label": "At home",
+            "hour-temp": {
+                "get_up": "here",
+                "bedtime": "sleeping"
+            }
+        },
+        "outside8-17": {
+            "label": "Outside 8h-17h",
+            "hour-temp": {
+                "07:30": "away",
+                "16:00": "here",
+                "bedtime": "sleeping"
+            }
+        }
+    }
+}

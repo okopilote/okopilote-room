@@ -1,0 +1,22 @@
+{
+    "onetime_scheduling": {},
+    "enable_weekly_scheduling": false,
+    "weekly_scheduling": {
+        "monday": "outside8-17",
+        "tuesday": "outside8-17",
+        "wednesday": "at_home",
+        "thursday": "outside8-17",
+        "friday": "outside8-17",
+        "saturday": "at_home",
+        "sunday": "at_home"
+    },
+    "hourly_presets": {
+        "get_up": "07:00",
+        "bedtime": "21:00"
+    },
+    "temp_presets": {
+        "here": 18.0,
+        "away": 15.0,
+        "sleeping": 16.0
+    }
+}
