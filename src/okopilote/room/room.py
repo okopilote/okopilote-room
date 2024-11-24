@@ -210,13 +210,13 @@ class Room(Thread):
         else:
             if self.temp_sensor is not None:
                 try:
-                    temp = self.temp_sensor.temperature()
+                    temp = self.temp_sensor.temperature
                 except Exception as e:
                     errors.append("Failed to read temperature: {}".format(e))
                     logger.error("{}: {}".format(self.room_id, errors[-1]))
             if self.humid_sensor is not None:
                 try:
-                    humid = self.humid_sensor.humidity()
+                    humid = self.humid_sensor.humidity
                 except Exception as e:
                     errors.append("Failed to read humidity: {}".format(e))
                     logger.error("{}: {}".format(self.room_id, errors[-1]))
