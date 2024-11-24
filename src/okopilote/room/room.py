@@ -201,7 +201,7 @@ class Room(Thread):
         if self.temp_sensor is self.humid_sensor:
             if self.temp_sensor is not None:
                 try:
-                    (temp, humid) = self.temp_sensor.temperature_humidity()
+                    (temp, humid) = self.temp_sensor.temperature_humidity
                 except Exception as e:
                     errors.append(
                         ("Failed to read temperature and humidity: " + "{}").format(e)
