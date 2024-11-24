@@ -1,0 +1,14 @@
+[Unit]
+Description=Okopilote room
+Documentation=https://github.com/okopilote/okopilote-room
+After=network.target
+
+[Service]
+Type=notify
+ExecStart=/usr/local/bin/okopilote-room \
+          --conf /etc/okopilote/room.conf
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+Alias=okopilote-room.service
